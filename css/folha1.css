@@ -1,0 +1,268 @@
+*{
+	padding: 0;
+	margin: 0;
+	}
+	
+@font-face {
+    font-family: 'operina';
+    src: local('P22 Operina Fiore.ttf'), local('P22 Operina Fiore'),
+        url('P22 Operina Fiore.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+	}
+	
+@font-face {
+    font-family: 'muggle';
+    src: local('Mugglenews.ttf'), local('Mugglenews'),
+        url('Mugglenews.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+	}
+	
+@font-face {
+    font-family: 'Acno';
+    src: local('Acno.ttf'), local('Acno'),
+        url('Acno.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+	}
+	
+@font-face {
+    font-family: 'ziggurat';
+    src: local('Ziggurat-HTF-Black.otf'), local('Ziggurat-HTF-Black'),
+        url('Ziggurat-HTF-Black.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+	}
+	
+@font-face {
+    font-family: 'ziggurat italic';
+    src: local('Ziggurat-HTF-Black-Italic.ttf'), local('Ziggurat-HTF-Black-Italic'),
+        url('Ziggurat-HTF-Black-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+	}
+	
+@font-face {
+    font-family: 'Champion Gothic';
+    src: local('Champion Gothic Feather weight'), local('Champion-Gothic-Feather-weight'),
+        url('ChampionGothic-Featherweight.woff2') format('woff2'),
+        url('ChampionGothic-Featherweight.woff') format('woff'),
+        url('ChampionGothic-Featherweight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Champion Gothic 2';
+    src: local('Champion Gothic Light weight'), local('Champion-Gothic-Light-weight'),
+        url('ChampionGothic-Lightweight.woff2') format('woff2'),
+        url('ChampionGothic-Lightweight.woff') format('woff'),
+        url('ChampionGothic-Lightweight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Castle';
+    src: local('BlackCastleMF.ttf'), local('BlackCastleMF'),
+        url('BlackCastleMF.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+	}
+	
+body{
+	background: url(background/oficial.jpg) no-repeat center fixed;
+	background-size: cover;
+	background-attachment: fixed;
+	color: black;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+	}
+	
+#next{
+	height: 20px;
+	width: 35px;
+	margin: 25%;
+	margin-left: 15%;
+	}
+	
+#handborder{
+	border-radius: 0px 30px 30px 0px;
+	top: 35vh;
+	right: 3vw;
+	position: fixed;
+	background-color: black;
+	height: 40px;
+	width: 50px;
+	}
+	
+#the{
+	font-size: 15px;
+	font-family: "operina";
+	line-height: 10px;
+	padding-left: 8vw;
+	}
+	
+#dpicon{;
+	position: absolute;
+	left: 2vw;
+	top: 3vh;
+	}
+	
+.lineleft{
+	position: absolute;
+	top: 4vh;
+	height: 4px;
+	width: 40vw;
+	left:12vw;
+	}
+	
+.lineright{
+	position: absolute;
+	top: 4vh;
+	height: 4px;
+	width: 41vw;
+	right: 2.2vw;
+	}
+	
+.linebottom{
+	position: relative;
+	top: 0;
+	height: 4px;
+	width: 95.5vw;
+	}
+	
+#logo{
+	font-family: "muggle";
+	font-size: 30px;
+	font-weight: 600;
+	padding-right: 3vw;
+	display: inline;
+	letter-spacing: 2px;
+	}
+	
+#P{
+	color: gold;
+	text-shadow: 2px 2px #36454F;
+	-webkit-text-stroke: 1px white;
+	}
+	
+#description{
+	font-family: "Acno";
+	margin-top: -4;
+	font-size: 5px;
+	font-weight: 100;
+	margin-left: -15;
+	margin-bottom: 2;
+	}
+	
+h1{
+	font-family: "ziggurat";
+	font-size: 40px;
+	font-weight: 500;
+	padding-top: 3vh;
+	}
+	
+h2{
+	font-family: "Champion Gothic 2";
+	font-weight: 100;
+	font-size: 35px;
+	margin-top: -10px;
+	}
+	
+#exclusiveblock{
+	text-align: left;
+	display; inline;
+	}
+	
+#exclusiveimg{;
+	maargin-left: 6px;
+	maargin-top: 6px;
+	text-align: left;
+	}
+
+#exclusivetext{
+	font-family: "Champion Gothic 2";
+	font-size: 19px;
+	text-align: right;
+	margin-top: -28px;
+	}
+	
+#block1{
+	margin-top: 5px;
+	width: 100%;
+	text-align: left;
+	}
+	
+#block2{
+	width: 100%;
+	text-align: left;
+	}
+	
+#block2 h3{
+	font-family: "Champion Gothic 2";
+	text-align: center;
+	font-weight: 100;
+	font-size: 22px;
+	}
+	
+#ImageArea1, #ImageArea22{
+	display: flex;
+	}
+	
+#ImageArea1 img{
+	width: 100%;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 2px;
+	}
+	
+#ImageArea2 img{
+	width: 50%;
+	margin-right: 10px;
+	float: left;
+	}
+	
+#ImageArea2 p{
+	text-align: right;
+	margin-bottom: -10px;
+	}
+	
+#ImageArea1 #texto1, #texto2{
+	width: 100%;
+	margin-bottom: 5px;
+	}
+	
+p{
+	font-family: "Castle";
+	font-size: 18px;
+	}
+	
+.center{
+	text-align: center;
+	}
+
+#space{
+	margin: 6px;
+	}
+	
+.border{
+	border: 3px solid black;
+	margin: 8px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

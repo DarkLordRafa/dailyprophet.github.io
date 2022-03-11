@@ -1,0 +1,244 @@
+*{
+	padding: 0;
+	margin: 0;
+	}
+	
+@font-face {
+    font-family: 'operina';
+    src: local('P22 Operina Fiore.ttf'), local('P22 Operina Fiore'),
+        url('P22 Operina Fiore.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+	}
+	
+@font-face {
+    font-family: 'muggle';
+    src: local('Mugglenews.ttf'), local('Mugglenews'),
+        url('Mugglenews.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+	}
+	
+@font-face {
+    font-family: 'Acno';
+    src: local('Acno.ttf'), local('Acno'),
+        url('Acno.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+	}
+	
+@font-face {
+    font-family: 'ziggurat';
+    src: local('Ziggurat-HTF-Black.otf'), local('Ziggurat-HTF-Black'),
+        url('Ziggurat-HTF-Black.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+	}
+	
+@font-face {
+    font-family: 'ziggurat italic';
+    src: local('Ziggurat-HTF-Black-Italic.ttf'), local('Ziggurat-HTF-Black-Italic'),
+        url('Ziggurat-HTF-Black-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+	}
+	
+@font-face {
+    font-family: 'Champion Gothic';
+    src: local('Champion Gothic Feather weight'), local('Champion-Gothic-Feather-weight'),
+        url('ChampionGothic-Featherweight.woff2') format('woff2'),
+        url('ChampionGothic-Featherweight.woff') format('woff'),
+        url('ChampionGothic-Featherweight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Champion Gothic 2';
+    src: local('Champion Gothic Light weight'), local('Champion-Gothic-Light-weight'),
+        url('ChampionGothic-Lightweight.woff2') format('woff2'),
+        url('ChampionGothic-Lightweight.woff') format('woff'),
+        url('ChampionGothic-Lightweight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Castle';
+    src: local('BlackCastleMF.ttf'), local('BlackCastleMF'),
+        url('BlackCastleMF.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+	}
+	
+body{
+	background: url(background/oficial.jpg) no-repeat center fixed;
+	background-size: cover;
+	background-attachment: fixed;
+	color: black;
+	padding-top: 2vh;
+	padding-bottom: 3vh;
+	}
+	
+#return{
+	height: 20px;
+	width: 35px;
+	margin: 25%;
+	margin-left: 15%;
+	}
+	
+#handborder{
+	border-radius: 30px 0px 0px 30px;
+	top: 35vh;
+	left: 3vw;
+	position: fixed;
+	background-color: black;
+	height: 40px;
+	width: 50px;
+	}
+	
+h1{
+	font-family: "ziggurat";
+	font-size: 40px;
+	font-weight: 500;
+	padding-top: 3vh;
+	}
+	
+h2{
+	font-family: "Champion Gothic 2";
+	font-weight: 100;
+	font-size: 30px;
+	line-height: 35px;
+	text-align: left;
+	margin-top: 5px;
+	}
+	
+#outsidename{
+	font-family: "muggle";
+	font-size: 10px;
+	text-align: right;
+	margin-right: 25px;
+	font-weight: 100;
+	}
+	
+#handblock{
+	display: block;
+	height: 28px;
+	width: 130px;
+	border:  3px solid black;
+	}
+	
+#handblockarea{
+	width: 100%;
+	display: flex;
+	}
+	
+#handtext{
+	font-family: "Champion Gothic";
+	width: 100%;
+	margin-left: 5px;
+	font-size: 20px;
+	height: 100%;
+	letter-spacing: 1px;
+	}
+	
+#handicon{
+	margin: 2px;
+	margin-left: 10px;
+	height: 25px;
+	width: 70px;
+	}
+	
+#block1{
+	display: flex;
+	margin-bottom: 5px;
+	}
+	
+#fudgetext2{
+	font-family: "ziggurat";
+	float: left;
+	font-size: 15px;
+	wiwdth: 300px;
+	}
+	
+#fudgetext3{
+	float: right;
+	}
+	
+#fudgeimage{
+	float: right;
+	margin-top: -33px;
+	}
+	
+#vertical{
+	font-family: "Champion Gothic 2";
+	writing-mode: vertical-rl;
+	transform: scale(-1);
+	margin-left: -6px;
+	float: left;
+	}
+	
+#title2{
+	font-family: "Champion Gothic 2";
+	font-size: 25px;
+	text-align: right;
+	}
+	
+#dolores{
+	height: 100px;
+	width: 150px;
+	margin: 5px;
+	margin-top: 0;
+	}
+	
+#doloresstext1{
+	float: right;
+	}
+	
+#flexarea{
+	display: flex;
+	}
+	
+p{
+	font-family: "Castle";
+	font-size: 18px;
+	text-align: left;
+	}
+	
+.center{
+	text-align: center;
+	}
+
+#space{
+	margin: 6px;
+	}
+	
+.border{
+	border: 3px solid black;
+	margin: 8px;
+	margin-top: 0;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
