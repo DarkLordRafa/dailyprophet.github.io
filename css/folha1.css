@@ -256,9 +256,190 @@ p{
 	
 	
 	
+@media (min-width: 1024px){
+body{
+	background: url(background/oficial.jpg) no-repeat center fixed;
+	background-size: cover;
+	background-attachment: fixed;
+	color: black;
+	padding-top: 6vh;
+	padding-bottom: 3vh;
+	}
 	
+#next{
+	height: 20px;
+	width: 35px;
+	margin: 25%;
+	margin-left: 15%;
+	}
 	
+#handborder{
+	border-radius: 0px 30px 30px 0px;
+	top: 35vh;
+	right: 3vw;
+	position: fixed;
+	background-color: black;
+	height: 40px;
+	width: 50px;
+	}
 	
+#the{
+	font-size: 35px;
+	font-family: "operina";
+	line-height: 10px;
+	padding-left: 3vw;
+	}
+	
+#dpicon{
+	height: 140px;
+	width: 140px;
+	position: absolute;
+	left: 1vw;
+	top: 3vh;
+	}
+	
+.lineleft{
+	position: absolute;
+	top: 7vh;
+	height: 4px;
+	width: 38vw;
+	left:12vw;
+	}
+	
+.lineright{
+	position: absolute;
+	top: 7vh;
+	height: 4px;
+	width: 44.5vw;
+	right: 2.2vw;
+	}
+	
+.linebottom{
+	position: relative;
+	top: 0;
+	height: 4px;
+	width: 95.5vw;
+	}
+	
+#logo{
+	font-family: "muggle";
+	font-size: 85px;
+	font-weight: 600;
+	padding-right: 3vw;
+	display: inline;
+	letter-spacing: 2px;
+	}
+	
+#P{
+	color: gold;
+	text-shadow: 5px 5px #36454F;
+	-webkit-text-stroke: 1px white;
+	}
+	
+#description{
+	font-family: "Acno";
+	margin-top: -20px;
+	font-size: 20px;
+	font-weight: 100;
+	margin-left: -15px;
+	margin-bottom: 2;
+	}
+	
+h1{
+	font-family: "ziggurat";
+	font-size: 40px;
+	font-weight: 500;
+	padding-top: 3vh;
+	}
+	
+h2{
+	font-family: "Champion Gothic 2";
+	font-weight: 100;
+	font-size: 35px;
+	margin-top: -10px;
+	}
+	
+#exclusiveblock{
+	text-align: left;
+	display; inline;
+	}
+	
+#exclusiveimg{;
+	height: 50px;
+	width: 250px;
+	text-align: left;
+	}
+
+#exclusivetext{
+	font-family: "Champion Gothic 2";
+	font-size: 40px;
+	text-align: right;
+	margin-top: -28px;
+	}
+	
+#block1{
+	margin-top: 5px;
+	width: 100%;
+	text-align: left;
+	}
+	
+#block2{
+	width: 100%;
+	text-align: left;
+	}
+	
+#block2 h3{
+	font-family: "Champion Gothic 2";
+	text-align: center;
+	font-weight: 100;
+	font-size: 22px;
+	}
+	
+#ImageArea1, #ImageArea22{
+	display: flex;
+	}
+	
+#ImageArea1 img{
+	width: 100%;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 2px;
+	}
+	
+#ImageArea2 img{
+	width: 50%;
+	margin-right: 10px;
+	float: left;
+	}
+	
+#ImageArea2 p{
+	text-align: right;
+	margin-bottom: -10px;
+	}
+	
+#ImageArea1 #texto1, #texto2{
+	width: 100%;
+	margin-bottom: 5px;
+	}
+	
+p{
+	font-family: "Castle";
+	font-size: 18px;
+	}
+	
+.center{
+	text-align: center;
+	}
+
+#space{
+	margin: 6px;
+	}
+	
+.border{
+	border: 3px solid black;
+	margin: 8px;
+	}
+}
 	
 	
 	
